@@ -58,7 +58,7 @@ function App() {
       modifiedText = `[OpenAI balanced]\n${text}`;
     }
 
-    const res = await axios.post("https://your-backend.onrender.com/generate", {
+    const res = await axios.post("https://ai-prompt-playground.onrender.com/generate", {
       text: modifiedText,
       mode,
       llm,
