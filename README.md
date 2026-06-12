@@ -128,8 +128,6 @@ Request body:
 ---
 
 ## Future Improvements
-
-* Add more LLM providers (OpenAI, Claude, Gemini)
 * Store history in database
 * Add authentication system
 * Chat-style UI interface
